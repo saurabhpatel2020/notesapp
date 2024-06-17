@@ -1,0 +1,19 @@
+/* styles.css */
+.container {
+    width: 80%;
+    margin: auto;
+    padding: 20px;
+}
+
+h1, h2 {
+    text-align: center;
+}
+
+ul {
+    list-style-type: none;
+}
+
+li {
+    padding: 5px;
+    border-bottom: 1px solid #ddd;
+}

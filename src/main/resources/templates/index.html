@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Note-taking Application</title>
+    <link rel="stylesheet" th:href="@{/css/styles.css}">
+</head>
+<body>
+<div class="container">
+    <h1>Note-taking Application</h1>
+    <div>
+        <h2>Notes</h2>
+        <p> Hello hi....byee</p>
+        <ul>
+            <li th:each="note : ${notes}">
+                <span th:text="${note.title}"></span> - <span th:text="${note.content}"></span>
+            </li>
+        </ul>
+    </div>
+</div>
+</body>
+</html>
